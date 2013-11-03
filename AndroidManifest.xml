@@ -1789,6 +1789,21 @@
                 android:value="com.android.settings.slim.BatteryIconStyle" />
         </activity>
 
+        <activity
+            android:name=".slim.fragments.ScreenStateToggles"
+            android:label="@string/screen_state_toggles_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name=".slim.fragments.WakeLockBlocker"
+            android:label="@string/wakelock_blocker" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
         <!-- Pseudo-activity used to provide an intent-filter entry point to rotation settings -->
         <activity android:name="Settings$DisplayRotationSettingsActivity"
                 android:label="@string/display_rotation_title"
