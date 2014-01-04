@@ -52,4 +52,9 @@
         android:title="@string/halo_settings_title"
         android:fragment="com.android.settings.lego.Halo" />
 
+    <PreferenceScreen
+        android:key="interface_voice_tts"
+        android:fragment="com.android.settings.slim.DrivingMode"
+        android:title="@string/voice_tts_title" />
+
 </PreferenceScreen>
