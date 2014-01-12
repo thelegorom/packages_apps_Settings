@@ -1294,4 +1294,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="progressbar_button_reset">Reiniciar colores</string>
     <string name="progressbar_reset_message">¿Reiniciar estilo de barra de progreso a estándar?</string>
 
+    <!-- Fast charge QS tile -->
+    <string name="title_tile_fcharge">Carga rápida</string>
+
 </resources>
