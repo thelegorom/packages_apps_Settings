@@ -35,10 +35,13 @@
             android:entryValues="@array/media_scanner_on_boot_values" />
 
     <PreferenceScreen
+        android:fragment="com.android.settings.slim.BatterySaverSettings"
+        android:title="@string/battery_saver_title" />
+
+    <PreferenceScreen
         android:key="wakelock_blocker"
         android:fragment="com.android.settings.slim.fragments.WakeLockBlocker"
-        android:title="@string/wakelock_blocker"
-        android:summary="@string/wakelock_blocker_header_summary" /> 
+        android:title="@string/wakelock_blocker" />
 
         <CheckBoxPreference
             android:key="disable_fc_notifications"
