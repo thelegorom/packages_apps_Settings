@@ -20,6 +20,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceScreen
+        android:key="DPI"
+        android:title="@string/dpi_category" >
+        <intent android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.slim.DPI_Settings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:fragment="com.android.settings.slim.BatteryIconStyle"
         android:key="battery_style_pref"
         android:title="@string/battery_icon_title" />
