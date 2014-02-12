@@ -1119,4 +1119,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Performance Control -->
     <string name="kernel_tweaker_title">Rendimiento</string>
 
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Pasos de volúmen</string>
+    <string name="volume_steps_alarm_title">Alarma</string>
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <string name="volume_steps_music_title">Música</string>
+    <string name="volume_steps_notification_title">Notificación</string>
+    <string name="volume_steps_ring_title">Llamada</string>
+    <string name="volume_steps_system_title">Sistema</string>
+    <string name="volume_steps_voice_call_title">Llamada de voz</string>
+
 </resources>
