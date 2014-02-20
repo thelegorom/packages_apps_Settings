@@ -1128,6 +1128,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="volume_steps_system_title">Sistema</string>
     <string name="volume_steps_voice_call_title">Llamada de voz</string>
 
+    <!-- Allow Multiuser -->
+    <string name="multiuser_preference_title">Soporte multiusuario</string>
+
     <!-- OTA App -->
     <string name="ota_app">Actualizaciones</string>
     <string name="ota_app_summary">Ver si hay actualizaciones de la rom</string>
