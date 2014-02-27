@@ -1207,4 +1207,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="screen_recorder_record_audio_title">Grabar audio</string>
     <string name="screen_recorder_record_audio_summary">Graba el audio del micrófono</string>
 
+    <!-- Network activity arrows -->
+    <string name="show_network_activity">Flechas de actividad de conexión</string>
+    <string name="show_network_activity_summary">Mostrar las flechas de actividad en los íconos de conexión</string>
+
 </resources>

@@ -1425,4 +1425,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="screen_recorder_bitrate_50000000">50000000</string>
     <string name="screen_recorder_bitrate_100000000">100000000</string>
 
+    <!-- Network activity arrows -->
+    <string name="show_network_activity">Network activity arrows</string>
+    <string name="show_network_activity_summary">Show network activity arrows on network icons</string>
+
 </resources>

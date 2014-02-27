@@ -978,4 +978,9 @@
     <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
     <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений у левого края.</string>
 
+    <!-- Network activity arrows -->
+    <string name="show_network_activity">Стрелки сетевой активности</string>
+    <string name="show_network_activity_summary">Показывать стрелки на значках сети при сетевой акти
+вности</string>
+
 </resources>
