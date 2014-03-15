@@ -1235,4 +1235,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Scrolling Animation Controls -->
     <string name="scrolling_title">Modificadores de desplazamiento</string>
 
+    <!-- Peek -->
+    <string name="notification_category">Notificaciones</string>
+    <string name="notification_peek_title">Ojear notificaciones</string>
+    <string name="notification_peek_summary">Mostrar la última notificación recibida luego de levantar tu dispositivo</string>
+
 </resources>
