@@ -961,6 +961,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="keys_app_switch_press_title">Botón aps. recientes</string>
     <string name="keys_app_switch_long_press_title">Botón aps. recientes (pulsación larga)</string>
     <string name="keys_app_switch_double_tap_title">Botón aps. recientes (doble pulsación)</string>
+    <string name="keys_camera_title">Botón cámara</string>
+    <string name="camera_wake_summary">Presionar el botón de cámara despertará el dispositivo</string>
+    <string name="keys_camera_peak_title">Ojear pantalla</string>
+    <string name="camera_sleep_on_release_summary">La pantalla se mantendrá encendida mientras se tenga apretado el botón</string>
+    <string name="keys_camera_music_title">Control de pistas</string>
+    <string name="camera_music_controls_summary">Cuando la pantalla esté apagada, teniendo apretado el botón de cámara reproducirá/pausará la pista de música actual</string>
     <string name="keys_action_normal">Pulsación normal</string>
     <string name="keys_action_long">Pulsación larga</string>
     <string name="keys_action_double">Doble pulsación</string>
