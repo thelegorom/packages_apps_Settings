@@ -1183,4 +1183,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="rominfo_settings_list_item_title">Lego Rom Statistics</string>
     <string name="rominfo_settings_list_item_summary">Help make Lego better by opting into anonymous statistics reporting</string>
 
+    <!-- Lego Logo -->
+    <string name="logo_link" formatted="false">http://www.drdevs.com/devs/?dir=LegoRom</string>
+
 </resources>

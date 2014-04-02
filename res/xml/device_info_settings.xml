@@ -17,6 +17,27 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+       <PreferenceScreen android:key="logo"
+                         android:layout="@layout/lego_logo" />
+
+        <!-- Lego Anonymous Stats -->
+       <PreferenceScreen android:key="rominfo_settings"
+            android:title="@string/rominfo_settings_list_item_title"
+            android:summary="@string/rominfo_settings_list_item_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="android.romstats"
+                    android:targetClass="android.romstats.AnonymousStats" />
+        </PreferenceScreen>
+
+        <!-- OTA -->
+        <PreferenceScreen android:key="ota_app"
+                android:title="@string/ota_app"
+                android:summary="@string/ota_app_summary"> 
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.otaupdater"
+                    android:targetClass="com.otaupdater.OTAUpdaterActivity" />
+        </PreferenceScreen>
+
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"
@@ -93,24 +114,6 @@
                 android:key="regulatory_info"
                 android:title="@string/regulatory_information">
             <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
-        </PreferenceScreen>
-
-        <!-- Lego Anonymous Stats -->
-       <PreferenceScreen android:key="rominfo_settings"
-            android:title="@string/rominfo_settings_list_item_title"
-            android:summary="@string/rominfo_settings_list_item_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="android.romstats"
-                    android:targetClass="android.romstats.AnonymousStats" />
-        </PreferenceScreen>
-
-        <!-- OTA -->
-        <PreferenceScreen android:key="ota_app"
-                android:title="@string/ota_app"
-                android:summary="@string/ota_app_summary"> 
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.otaupdater"
-                    android:targetClass="com.otaupdater.OTAUpdaterActivity" />
         </PreferenceScreen>
 
         <!-- Device hardware model -->
