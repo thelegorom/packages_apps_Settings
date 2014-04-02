@@ -1128,4 +1128,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="volume_steps_system_title">Sistema</string>
     <string name="volume_steps_voice_call_title">Llamada de voz</string>
 
+    <!-- OTA App -->
+    <string name="ota_app">Actualizaciones</string>
+    <string name="ota_app_summary">Ver si hay actualizaciones de la rom</string>
+
+    <!-- Anonymous stats -->
+    <string name="rominfo_settings_list_item_title">Estadísticas</string>
+    <string name="rominfo_settings_list_item_summary">Ayuda a mejorar lego usando un reporte anónimo de estadísticas</string>
+
 </resources>
