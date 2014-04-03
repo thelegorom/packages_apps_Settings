@@ -35,12 +35,6 @@
             android:entryValues="@array/media_scanner_on_boot_values" />
 
     <PreferenceScreen
-        android:key="screen_state_service"
-        android:fragment="com.android.settings.slim.fragments.ScreenStateToggles"
-        android:title="@string/screen_state_toggles_title"
-        android:summary="@string/screen_state_toggles_summary" />
-
-    <PreferenceScreen
         android:key="wakelock_blocker"
         android:fragment="com.android.settings.slim.fragments.WakeLockBlocker"
         android:title="@string/wakelock_blocker"

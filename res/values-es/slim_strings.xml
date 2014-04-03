@@ -1160,19 +1160,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- QuickSettings Custom Tiles -->
     <string name="internal_memory_tile">Memoria Interna</string>
 
-    <!-- Screen state service -->
-    <string name="screen_state_toggles_title">Acciones de suspensión</string>
-    <string name="screen_state_toggles_enable_title">Activar</string>
-    <string name="screen_state_toggles_enable_summary">Las acciones serán ejecutadas cuando se apague la pantalla. Cuando se prenda, el estado previo será restaurado.</string>
-    <string name="screen_state_toggles_mobile_title">Redes móviles</string>
-    <string name="screen_state_toggles_location_title">Ubicación</string>
-    <string name="screen_state_toggles_twog">Cambiar a 2G</string>
-    <string name="screen_state_toggles_twog_summary">Se cambiará a 2G cuando se apague la pantalla</string>
-    <string name="screen_state_toggles_gps">Desactivar GPS</string>
-    <string name="screen_state_toggles_gps_summary">Se desactivarán los servicios de ubicación cuando se apague la pantalla</string>
-    <string name="screen_state_toggles_mobile_data">Desactivar datos móviles</string>
-    <string name="screen_state_toggles_mobile_data_summary">Los datos móviles se desactivarán cuando se apague la pantalla</string>
-
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker">Bloqueador de wakelocks</string>
     <string name="wakelock_blocker_title">Activar</string>
