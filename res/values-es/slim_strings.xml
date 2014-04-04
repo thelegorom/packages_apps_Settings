@@ -1107,4 +1107,16 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="recent_panel_lefty_mode_title">Mostrar en el lado izquierdo</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aps recientes en el lado izquierdo.</string>
 
+    <!-- Sound themes -->
+    <string name="sound_packages_title">Temas de sonido</string>
+    <string name="install_sound_pack_title">Instalar tema de sonido</string>
+    <string name="install_sound_pack_summary">Instalar nuevos temas de sonido agregados a la carpeta SoundPacks en el almacenamiento interno</string>
+    <string name="select_sound_pack_title">Seleccionar tema de sonido</string>
+    <string name="select_sound_pack_summary">Seleccionar el tema de sonido activo</string>
+    <string name="default_sound_pack">Estándar (sistema)</string>
+    <string name="error_pack_install">Error instalando el tema de sonido</string>
+
+    <!-- Performance Control -->
+    <string name="kernel_tweaker_title">Rendimiento</string>
+
 </resources>
