@@ -33,12 +33,11 @@
     <!-- Slim settings screens -->
     <string name="interface_settings_title">Interfaz</string>
     <string name="navigation_settings_title">Navegación</string>
-    <string name="slim_center_title">SlimCenter</string>
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="device_settings_title">Dispositivo</string>
 
     <!-- Slim Shortcuts -->
-    <string name="slim_shortcut_picker">Acciones Slim</string>
+    <string name="slim_shortcut_picker">Acciones</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selector de color</string>
@@ -49,9 +48,9 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Establecer</string>
 
-    <!-- About phone screen, slim version -->
-    <string name="slim_version_title">Versión Slim</string>
-    <string name="slim_version_default">Desconocido</string>
+    <!-- About phone screen, lego version -->
+    <string name="lego_version_title">Versión Lego</string>
+    <string name="lego_version_default">Desconocido</string>
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Opciones del Led</string>
@@ -919,7 +918,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="stylus_icon_enabled_summary">Muestra un icono mientras se está usando el stylus</string>
 
     <!-- Themes -->
-    <string name="theme_settings_title">The real dark slim</string>
+    <string name="theme_settings_title">Tema oscuro</string>
     <string name="theme_auto_mode_title">Cambiar tema</string>
     <string name="theme_auto_mode_off">Manual</string>
     <string name="theme_auto_mode_lightsensor">Al cambuir las condiciones de luz</string>
@@ -1032,7 +1031,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="usb_mass_storage_summary">Habilitar almacenamiento USB</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">SlimPIE</string>
+    <string name="pie_control_title">Control PIE</string>
     <string name="pie_control_summary">Habilitar controles PIE</string>
     <string name="pie_control_size">Tamaño de controles</string>
     <string name="pie_control_trigger_positions">Opciones del lanzador</string>

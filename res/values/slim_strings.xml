@@ -37,7 +37,7 @@
     <string name="device_settings_title">Device</string>
 
     <!-- Slim Shortcuts -->
-    <string name="slim_shortcut_picker">Slim Actions</string>
+    <string name="slim_shortcut_picker">Lego Actions</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -48,9 +48,9 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
 
-    <!-- About phone screen, slim version -->
-    <string name="slim_version_title">Slim version</string>
-    <string name="slim_version_default">Unknown</string>
+    <!-- About phone screen, lego version -->
+    <string name="lego_version_title">Lego version</string>
+    <string name="lego_version_default">Unknown</string>
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Light options</string>
@@ -946,7 +946,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="stylus_icon_enabled_summary">Show the pointer icon while using stylus</string>
 
     <!-- Themes -->
-    <string name="theme_settings_title">The real dark slim</string>
+    <string name="theme_settings_title">Dark bricks</string>
     <string name="theme_auto_mode_title">Switch theme</string>
     <string name="theme_auto_mode_off">Manual</string>
     <string name="theme_auto_mode_lightsensor">On light condition change</string>
@@ -1066,7 +1066,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="usb_mass_storage_summary">Enable USB mass storage</string>
 
     <!-- Pie Control -->
-    <string name="pie_control_title">SlimPIE</string>
+    <string name="pie_control_title">PIE Control</string>
     <string name="pie_control_summary">Enable pie controls</string>
     <string name="pie_control_size">Navigation size</string>
     <string name="pie_control_trigger_positions">Trigger options</string>
