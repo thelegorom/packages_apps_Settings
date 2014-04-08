@@ -1136,4 +1136,28 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="rominfo_settings_list_item_title">Estadísticas</string>
     <string name="rominfo_settings_list_item_summary">Ayuda a mejorar lego usando un reporte anónimo de estadísticas</string>
 
+    <!-- Text for disabling FC notifications -->
+    <string name="disable_fc_notifications_title">Desactivar notificaciones de cierre inesperado</string>
+    <string name="disable_fc_notifications_summary">Esto esconderá las notificaciones de cierre inesperado</string>
+
+    <!-- Animation Controls -->  
+    <string name="title_animation_controls">Animaciones de sistema personalizadas</string>  
+    <string name="activity_open_title">Animación de abrir actividad</string>  
+    <string name="activity_close_title">Animación de cerrar actividad</string>  
+    <string name="task_open_title">Animación de abrir tarea</string>  
+    <string name="task_close_title">Animación de cerrar tarea</string>  
+    <string name="task_move_to_front_title">Animación de mover al frente</string>  
+    <string name="task_move_to_back_title">Animación de mover atrás</string>  
+    <string name="wallpaper_open_title">Animación de abrir fondo de pantalla</string>  
+    <string name="wallpaper_close_title">Animación de cerrar fondo de pantalla</string>  
+    <string name="wallpaper_intra_open_title">Animación de abrir wallpaper intra</string>  
+    <string name="wallpaper_intra_close_title">Animación de cerrar wallpaper intra</string>  
+    <string name="animation_duration_title">Duración de animación</string>  
+    <string name="title_animation_no_override">Prevenir animaciones de aplicación</string>  
+    <string name="summary_animation_no_override">Previene que las aplicaciones sustituyan las transiciones.</string>  
+    <string name="animation_duration_default">Estándar</string>
+
+    <!-- QuickSettings Custom Tiles -->
+    <string name="internal_memory_tile">Memoria Interna</string>
+
 </resources>
