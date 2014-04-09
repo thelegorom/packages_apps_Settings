@@ -26,8 +26,6 @@
     <string name="reset_message">Reset all entries to default?</string>
     <string name="style_title">Style</string>
     <string name="add">Add</string>
-    <string name="general_settings_title">General settings</string>
-    <string name="general_settings_style_title">General options</string>
 
     <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_rom_settings">Advanced settings</string>
