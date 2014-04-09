@@ -1160,4 +1160,31 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- QuickSettings Custom Tiles -->
     <string name="internal_memory_tile">Memoria Interna</string>
 
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_title">Acciones de suspensión</string>
+    <string name="screen_state_toggles_enable_title">Activar</string>
+    <string name="screen_state_toggles_enable_summary">Las acciones serán ejecutadas cuando se apague la pantalla. Cuando se prenda, el estado previo será restaurado.</string>
+    <string name="screen_state_toggles_mobile_title">Redes móviles</string>
+    <string name="screen_state_toggles_location_title">Ubicación</string>
+    <string name="screen_state_toggles_twog">Cambiar a 2G</string>
+    <string name="screen_state_toggles_twog_summary">Se cambiará a 2G cuando se apague la pantalla</string>
+    <string name="screen_state_toggles_gps">Desactivar GPS</string>
+    <string name="screen_state_toggles_gps_summary">Se desactivarán los servicios de ubicación cuando se apague la pantalla</string>
+    <string name="screen_state_toggles_mobile_data">Desactivar datos móviles</string>
+    <string name="screen_state_toggles_mobile_data_summary">Los datos móviles se desactivarán cuando se apague la pantalla</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker">Bloqueador de wakelocks</string>
+    <string name="wakelock_blocker_title">Activar</string>
+    <string name="wakelock_blocker_summary">Activar bloqueo para los wakelocks seleccionados</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Cargar de nuevo</string>
+    <string name="wakelock_blocker_warning_title">Procede con precaución</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks puede causar pérdidas de datos, cierres inesperados e inestabilidad.</string>
+
+    <!-- Custom notification panel header -->
+    <string name="custom_statusbar_header_title">Encabezado del panel de notificación contextual</string>
+    <string name="custom_statusbar_header_summary">Usa un fondo para el encabezado del panel de notificación basado en la fecha y hora</string>
+
 </resources>
