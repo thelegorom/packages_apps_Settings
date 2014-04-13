@@ -1174,4 +1174,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="custom_statusbar_header_title">Encabezado del panel de notificación contextual</string>
     <string name="custom_statusbar_header_summary">Usa un fondo para el encabezado del panel de notificación basado en la fecha y hora</string>
 
+    <!--  Development Shortcut -->
+    <string name="development_shortcut_title">Accesos directos</string>
+    <string name="development_shortcut_summary">Activa las opciones "borrar datos de aplicación" y "detener aplicación" en la barra de notificaciones</string>
+
 </resources>
