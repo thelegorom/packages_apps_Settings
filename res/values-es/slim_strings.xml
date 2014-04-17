@@ -1196,4 +1196,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="custom_runtime_warning_title">Advertencia</string>
     <string name="custom_runtime_warning_message">Lego no soporta ART. Esta opción es experimental y puede causar inestabilidad, cierres, pérdida de datos o incluso prevenir a tu dispositivo de prender correctamente. Visita &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; para más información.&lt;br/&gt;&lt;br/&gt;Te pedimos que no reportes bugs si tienes art activado.&lt;br/&gt;&lt;br/&gt;Estás seguro que quieres reiniciar y cambiar <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
 
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Grabador de pantalla</string>
+    <string name="screen_recorder_summary">Ajustar las opciones del grabador de pantalla</string>
+    <string name="screen_recorder_video_dimensions_title">Tamaño de video</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <string name="screen_recorder_record_audio_title">Grabar audio</string>
+    <string name="screen_recorder_record_audio_summary">Graba el audio del micrófono</string>
+
 </resources>
