@@ -1195,10 +1195,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="disable_fc_notifications_title">Diable FC Notifications</string>
     <string name="disable_fc_notifications_summary">This will hide all force close notificaitons</string>
 
-    <!-- Display : Animation options -->
-    <string name="screen_and_animations_title">Appearance</string>
-    <string name="display_category_animation_options_title">Appearance</string>
-
     <!-- Animation Controls -->  
     <string name="title_animation_controls">Custom System Animations</string>  
     <string name="activity_open_title">Activity Open Animation</string>  
@@ -1223,20 +1219,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Custom notification panel header -->
     <string name="custom_statusbar_header_title">Contextual notification panel header</string>
     <string name="custom_statusbar_header_summary">Sets the background of the notification panel header to an image based on the current date and time</string>
-
-    <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">@null</string>
-    <string name="screen_state_toggles_title">Suspend Actions</string>
-    <string name="screen_state_toggles_enable_title">Enable</string>
-    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
-    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
-    <string name="screen_state_toggles_location_title">Location</string>
-    <string name="screen_state_toggles_twog">Switch to 2G</string>
-    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
-    <string name="screen_state_toggles_gps">Disable GPS</string>
-    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
-    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
-    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_header_summary">@null</string>
