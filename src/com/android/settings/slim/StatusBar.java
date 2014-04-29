@@ -43,10 +43,12 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
 
     private static final String NETWORK_ACTIVITY_ARROWS = "network_activity_arrows";
+    private static final String STATUS_BAR_NOTIFICATION_COUNT = "status_bar_notification_count";
 
     private PreferenceScreen mClockStyle;
     private CheckBoxPreference mStatusBarBrightnessControl;
     private CheckBoxPreference mNeworkActivityArrows;
+    private CheckBoxPreference mStatusBarNotifCount;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,6 +79,9 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             Settings.System.NETWORK_ACTIVITY_ARROWS, 0) == 1));
         mNeworkActivityArrows.setOnPreferenceChangeListener(this);
 
+        mStatusBarNotifCount = (CheckBoxPreference) prefSet.findPreference(STATUS_BAR_NOTIFICATION_COUNT);
+        mStatusBarNotifCount.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_NOTIFICATION_COUNT, 0) == 1));
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -91,6 +96,19 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
            return true;
         }
         return false;
+    }
+
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        boolean value;
+
+        if (preference == mStatusBarNotifCount) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_NOTIFICATION_COUNT,
+                    mStatusBarNotifCount.isChecked() ? 1 : 0);
+            return true;
+        }
+
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override

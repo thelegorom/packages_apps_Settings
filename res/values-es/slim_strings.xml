@@ -1297,4 +1297,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Fast charge QS tile -->
     <string name="title_tile_fcharge">Carga rápida</string>
 
+    <!-- Status bar notification count -->
+    <string name="status_bar_notification_count_title">Contador de notificaciones</string>
+    <string name="status_bar_notification_count_summary">Muestra número para notificaciones similares</string>
+
 </resources>
