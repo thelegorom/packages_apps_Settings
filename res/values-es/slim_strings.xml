@@ -1243,9 +1243,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_lock_icon_lego">Icono Lego</string>
     
     <!-- DPI Tool -->
-    <string name="dpi_category">DPI</string>
+    <string name="dpi_category">Cambiador de DPI</string>
     <string name="current_dpi">DPI actual</string>
-    <string name="dpi_category">DPI</string>
+    <string name="dpi_category">Cambiador de DPI</string>
     <string name="dpi_ldpi">El DPI recomendado para este dispositivo es 0~120.</string>
     <string name="dpi_mdpi">El DPI recomendado para este dispositivo es 120~160.</string>
     <string name="dpi_hdpi">El DPI recomendado para este dispositivo es 160~240.</string>
