@@ -1241,5 +1241,23 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Lockscreen lego icon -->
     <string name="lockscreen_lock_icon_lego">Icono Lego</string>
+    
+    <!-- DPI Tool -->
+    <string name="dpi_category">DPI</string>
+    <string name="current_dpi">DPI actual</string>
+    <string name="dpi_category">DPI</string>
+    <string name="dpi_ldpi">El DPI recomendado para este dispositivo es 0~120.</string>
+    <string name="dpi_mdpi">El DPI recomendado para este dispositivo es 120~160.</string>
+    <string name="dpi_hdpi">El DPI recomendado para este dispositivo es 160~240.</string>
+    <string name="dpi_xhdpi">El DPI recomendado para este dispositivo es 240~320.</string>
+    <string name="dpi_xxhdpi">El DPI recomendado para este dispositivo es 320~640.</string>
+    <string name="dpi_msg1">DPI cambiado exitosamente de</string>
+    <string name="dpi_msg2">a</string>
+    <string name="dpi_msg3">.</string>
+    <string name="dpi_need_reboot">Debes reiniciar para que los cambios hagan efecto.</string>
+    <string name="dpi_null">Por favor ingresa un DPI</string>
+    <string name="dpi_reboot">Reinicio automático</string>
+    <string name="dpi_sucess">Densidad de pantalla aplicada exitosamente. \n\n Por favor reinicia.</string>
+    <string name="dpi_warning">*ADVERTENCIA*\n\n\n garantía corrompida. \n\nIngresa un DPI y toca el botón. Debes reiniciar para que los cambios hagan efecto.</string>
 
 </resources>
