@@ -1260,4 +1260,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="dpi_sucess">Densidad de pantalla aplicada exitosamente. \n\n Por favor reinicia.</string>
     <string name="dpi_warning">*ADVERTENCIA*\n\n\n garantía corrompida. \n\nIngresa un DPI y toca el botón. Debes reiniciar para que los cambios hagan efecto.</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="haptic_qs_tiles_title">Vibrar en toque</string>
+    <string name="haptic_qs_tiles_summary">Vibra cuando se toca un acceso directo</string>
+
 </resources>

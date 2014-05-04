@@ -1558,4 +1558,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="dpi_sucess">Display density successfully applied. \n\n Please reboot.</string>
     <string name="dpi_warning">*WARNING*\n\n\n warranty is now void. \n\nEnter DPI and press Button. You need to reboot to apply DPI.</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="haptic_qs_tiles_title">Vibrate on touch</string>
+    <string name="haptic_qs_tiles_summary">Vibrate when touching tiles</string>
+
 </resources>
