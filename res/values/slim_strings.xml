@@ -1185,10 +1185,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Allow Multiuser -->
     <string name="multiuser_preference_title">Multiuser support</string>
 
-    <!-- OTA App -->
-    <string name="ota_app">Lego Updates</string>
-    <string name="ota_app_summary">Check for ROM updates</string>
-
     <!-- Anonymous stats -->
     <string name="rominfo_settings_list_item_title">Lego Rom Statistics</string>
     <string name="rominfo_settings_list_item_summary">Help make Lego better by opting into anonymous statistics reporting</string>

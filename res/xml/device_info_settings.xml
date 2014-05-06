@@ -29,15 +29,6 @@
                     android:targetClass="android.romstats.AnonymousStats" />
         </PreferenceScreen>
 
-        <!-- OTA -->
-        <PreferenceScreen android:key="ota_app"
-                android:title="@string/ota_app"
-                android:summary="@string/ota_app_summary"> 
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.otaupdater"
-                    android:targetClass="com.otaupdater.OTAUpdaterActivity" />
-        </PreferenceScreen>
-
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"
