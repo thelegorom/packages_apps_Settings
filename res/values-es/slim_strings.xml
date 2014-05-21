@@ -170,6 +170,20 @@
     <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando a lo largo de la barra de estado</string>
     <string name="status_bar_toggle_info">Brillo automático está habilitado</string>
 
+    <!-- Shake Events -->
+    <string name="shake_events_title">Eventos de sacudida</string>
+    <string name="shake_events_enabled_title">Habilitar escuchador de sacudida</string>
+    <string name="shake_events_normal_title">Activar Eventos de sacudida</string>
+    <string name="shake_event_x_title">Actividad a ejecutar cuando se sacude horizontalmente</string>
+    <string name="shake_event_y_title">Actividad a ejecutar cuando se sacude verticalmente</string>
+    <string name="shake_event_z_title">Actividad a ejecutar cuando se sacude atrás y adelante</string>
+
+    <!-- Shake sensitivity -->
+    <string name="shake_sensitivity_title">Sensibilidad de sacudida</string>
+    <string name="shake_sensitivity_summary">Sensibilidad global de todos los ajustes de sacudida</string>
+    <string name="shake_sensitivity_less_sensitive">Menos sensible</string>
+    <string name="shake_sensitivity_more_sensitive">Más sensible</string>
+
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Opciones de encendido de pantalla</string>
     <string name="pref_volume_wake_title">Despertar con teclas de volumen</string>
@@ -395,6 +409,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="shortcut_action_help_shortcut">acceso directo</string>
     <string name="shortcut_action_help_button">botón</string>
+    <string name="shortcut_action_help_app">aplicación</string>
     <string name="shortcut_action_help_icon">, mientras selecciona el icono aparecerán las opciones de personalización</string>
     <string name="shortcut_action_help_main">Para añadir un %1$s, toca el icono Añadir. Una vez que %1$s ha sido añadida, seleccionando la fila cambiará el destino%2$s\n\nPara borrar una %1$s, desliza la fila horizontalmente a la izquierda o a la derecha.  Ordena una %1$s en la lista arrastrando verticalmente el marcador de la izquierda.\n\nPara limpiar o restablecer a los valores predeterminados toca el icono Restablecer.</string>
     <string name="shortcut_action_help_delete_last_entry">Borrando cada %1$s en la lista deshabilitará esta característica completamente.</string>
@@ -492,10 +507,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_status_icon">Icono</string>
     <string name="battery_status_percentage">Porcentaje</string>
     <string name="battery_status_icon_percentage">Icono con porcentaje</string>
+    <string name="battery_status_icon_percentage_jb">Icono con porcentaje (estilo JB)</string>
     <string name="battery_status_circle">Círculo</string>
     <string name="battery_status_circle_percentage">Círculo con porcentaje</string>
     <string name="battery_status_dotted_circle_percentage">Círculo punteado con porcentaje</string>
     <string name="battery_status_dotted_circle">Círculo punteado</string>
+    <string name="battery_status_gone">Sin batería</string>
     <string name="battery_color_title">Color batería</string>
     <string name="circle_battery_animation_speed">Velocidad animación círculo</string>
     <string name="circle_battery_animation_speed_none">Ninguno</string>
@@ -505,6 +522,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_text_color">Color del texto de porcentaje</string>
     <string name="battery_bolt_color">Color del rayo de carga</string>
     <string name="battery_text_charging_color">Color del texto de porcentaje cargando</string>
+    <string name="battery_circle_charging_color">Color del círculo de cargado</string>
     <string name="battery_style_reset_message">¿Restablecer los colores de la batería?</string>
 
     <!-- Category title for power sound notification specific Settings.
@@ -734,6 +752,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Lockscreen widget settings -->
     <string name="lockscreen_widgets_title">Widgets</string>
+    <string name="lockscreen_allow_all_title">Permitir todos los widgets</string>
+    <string name="lockscreen_allow_all_summary">Permite widgets que no soportan ser agregados a la pantalla de bloqueo</string>
+    <string name="lockscreen_allow_all_warning">Algunos widgets no funcionarán como se espera cuando son agregados a la pantalla de bloqueo.  Otros widgets podrían exponer tus datos personales.  Por favor lee estas advertencias antes de continuar.</string>
     <string name="lockscreen_camera_widget_title">Habilitar widget de cámara</string>
     <string name="lockscreen_camera_widget_summary">Mostrar widget de cámara seguro en la pantalla de bloqueo</string>
     <string name="lockscreen_maximize_widgets_title">Iniciar maximizado</string>
@@ -756,6 +777,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="shake_to_secure_dlg_title">Advertencia:</string>
     <string name="shake_to_secure_dlg_message">El dispositivo será inseguro hasta que lo agites para habilitar el bloque seguro.  Una vez seguro: si el dispositivo se desbloquea no volverá a aparecer la pantalla de bloqueo con seguridad hasta que se agite de nuevo.</string>
     <string name="shake_secure_timeout_title">Habilitar seguridad automáticamente</string>
+    <string name="shake_all">Sacudir en cualquier dirección</string>
+    <string name="shake_horizontal">Sacudir horizontalmente</string>
+    <string name="shake_vertical">Sacudir verticalmente</string>
+    <string name="shake_back_forth">Sacudir hacia atrás y adelante</string>
     <string name="shake_secure_timeout_disabled">Nunca habilitar seguridad automáticamente</string>
     <string name="shake_secure_timeout_1min">1 minuto tras apagar la pantalla</string>
     <string name="shake_secure_timeout_5min">5 minutos tras apagar la pantalla</string>
@@ -831,6 +856,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="title_tile_expanded_desktop">Escritorio extendido</string>
     <string name="title_tile_music">Música</string>
     <string name="title_tile_reboot">Reiniciar</string>
+    <string name="title_tile_theme">Cambiar tema</string>
+    <string name="title_tile_shake">Eventos de sacudida</string>
     <string name="dynamic_tile_ime_switcher">Selector IME</string>
     <string name="dynamic_tile_usb_tether">Anclaje USB</string>
     <string name="dynamic_tile_alarm">Alarma</string>
@@ -845,6 +872,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="custom_toggle_extras">Extras del int. personalizado</string>
     <string name="custom_toggle_collapse_check">Cerrar panel de notificaciones</string>
     <string name="custom_toggle_match_state_check">Acción al tocar concuerda con el icono</string>
+    <string name="custom_toggle_double_click_check">Toca dos veces para volver a la acción anterior</string>
     <string name="custom_tile_long_press">Pulsación larga:</string>
     <string name="custom_tile_null_warning">Primero se debe definir una acción</string>
     <string name="custom_tile_resolve_name">Desconocido</string>
@@ -884,10 +912,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- QuickSettings: Smart Pulldown -->
     <string name="smart_pulldown_title">Despliegue inteligente</string>
-    <string name="smart_pulldown_summary">Despliega el panel de ajustes rápidos cuando no hay notificaciones %1$s</string>
+    <string name="smart_pulldown_summary">Despliega el panel de ajustes rápidos cuando hay %1$s notificaciones</string>
     <string name="smart_pulldown_off">Desactivado</string>
-    <string name="smart_pulldown_dismissable">Desechables</string>
-    <string name="smart_pulldown_persistent">Persistentes</string>
+    <string name="smart_pulldown_dismissable">No desechable</string>
+    <string name="smart_pulldown_persistent">No persistente</string>
+    <string name="smart_pulldown_all">No desechable o persistente</string>
 
     <!-- QuickSettings: Quick Collapse -->
     <string name="title_collapse_panel">Cierre rápido</string>
@@ -1228,7 +1257,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="show_network_activity_summary">Mostrar las flechas de actividad en los íconos de conexión</string>
 
     <!-- Driving mode -->
-    <string name="voice_tts_title">Modo manejar</string>
+    <string name="voice_tts_title">Modo de manejo</string>
 
     <!-- Lockscreen Notifications -->
     <string name="lockscreen_notifications">Notificaciones en pantalla de bloqueo</string>
@@ -1257,9 +1286,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_lock_icon_lego">Icono Lego</string>
     
     <!-- DPI Tool -->
-    <string name="dpi_category">Cambiador de DPI</string>
+    <string name="dpi_category">Cambiar DPI</string>
     <string name="current_dpi">DPI actual</string>
-    <string name="dpi_category">Cambiador de DPI</string>
+    <string name="dpi_category">Cambiar DPI</string>
     <string name="dpi_ldpi">El DPI recomendado para este dispositivo es 0~120.</string>
     <string name="dpi_mdpi">El DPI recomendado para este dispositivo es 120~160.</string>
     <string name="dpi_hdpi">El DPI recomendado para este dispositivo es 160~240.</string>
