@@ -1411,4 +1411,13 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Bluetooth accept all Filestypes -->
     <string name="bluetooth_accept_all_files">Aceptar todos los tipos de archivos</string>
 
+    <!-- App moving -->
+    <string name="app_moving_enable">Habilitar mover aps.</string>
+    <string name="app_moving_disable">Deshabilitar mover aps.</string>
+    <string name="app_moving_reboot_title">¿Reinicar ahora?</string>
+    <string name="app_moving_reboot_enabled_desc">Se ha habilitado el poder mover aplicaciones.\n\nPara que los cambios se apliquen es necesario reiniciar el dispositivo.</string>
+    <string name="app_moving_reboot_disabled_desc">Se ha deshabilitado el poder mover aplicaciones.\n\nPara que los cambios se apliquen es necesario reiniciar el dispositivo.</string>
+    <string name="app_moving_reboot_now_button">Reiniciar ahora</string>
+    <string name="app_moving_reboot_later_button">Reiniciar más tarde</string>
+
 </resources>
