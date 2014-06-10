@@ -1205,7 +1205,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge.</string>
 
-<<<<<<< HEAD
     <!-- Sound themes -->
     <string name="sound_packages_title">Sound packs</string>
     <string name="install_sound_pack_title">Install sound pack</string>
